@@ -1,0 +1,53 @@
+Тут все ошибки, которые мне выводились. Сначала я писала в ноутбуке, но он почему-то не запускался. Программа ругалась на нехватку скобочек. 
+Я решила запускать в простом питоне и тут начались проблемы с кодировкой.
+
+/home/aaksenova/Term_paper.ipynb: 292: /home/aaksenova/Term_paper.ipynb: Syntax error: end of file unexpected (expecting "}")
+/home/aaksenova/parser.py: 1: /home/aaksenova/parser.py: import: not found
+/home/aaksenova/parser.py: 3: /home/aaksenova/parser.py: Syntax error: "(" unexpected
+/home/aaksenova/parser.py: 3: /home/aaksenova/parser.py: import: not found
+/home/aaksenova/parser.py: 5: /home/aaksenova/parser.py: Syntax error: "(" unexpected
+/home/aaksenova/Term_paper.ipynb: 221: /home/aaksenova/Term_paper.ipynb: Syntax error: end of file unexpected (expecting "}")
+  File "parser.py", line 6
+SyntaxError: Non-ASCII character '\xd0' in file parser.py on line 6, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+  File "parser.py", line 7
+SyntaxError: Non-ASCII character '\xd0' in file parser.py on line 7, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+parser.py:16: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  if not (text[i][0] == '!' or text[i][0] == '?' or text[i][0] == '.' or text[i][0] == 'вЂ¦') :
+parser.py:17: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  if ((text[i][0] == 'С‚Рѕ' or text[i][0] == 'РўРѕ')
+parser.py:21: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  elif (text[i][0] == 'С‚Р°Рє' or text[i][0] == 'РўР°Рє') and text[i+1][0] == 'РєР°Рє':
+parser.py:24: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  elif (text[i][0] == 'РїРѕС‚РѕРјСѓ' or text[i][0] == 'РџРѕС‚РѕРјСѓ') and text[i+1][0] == 'С‡С‚Рѕ':
+parser.py:27: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  elif (text[i][0] == 'РІ' or text[i][0] == 'Р’') and text[i+1][0] == 'СЃРјС‹СЃР»Рµ':
+parser.py:30: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  elif (text[i][0] == 'Рђ' or text[i][0] == 'Рђ') and text[i+1][0] == 'РёРјРµРЅРЅРѕ':
+parser.py:33: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  elif ((text[i][0] == 'С‚' or text[i][0] == 'Рў')
+parser.py:37: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  elif (text[i][0] == 'С‚' or text[i][0] == 'Рў') and text[i+1][0] == '.' and text[i+2][0] == 'Рє':
+parser.py:40: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  elif text[i][6] == 'PUNC' or text[i][0] == 'вЂ“':  # Р•СЃР»Рё РЅРµ !.?... РЅРѕ Р·РЅР°Рє РїСЂРµРїРёРЅР°РЅРёСЏ, РЅРµ РґРѕР±Р°РІР»СЏРµРј
+parser.py:44: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  elif not (text[i+1][0] == 'Рї' or text[i+1][0] == 'Рґ'):
+parser.py:37: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  elif (text[i][0] == 'С‚' or text[i][0] == 'Рў') and text[i+1][0] == '.' and text[i+2][0] == 'Рє':
+parser.py:40: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  elif text[i][6] == 'PUNC' or text[i][0] == 'вЂ“':  # Р•СЃР»Рё РЅРµ !.?... РЅРѕ Р·РЅР°Рє РїСЂРµРїРёРЅР°РЅРёСЏ, РЅРµ РґРѕР±Р°РІР»СЏРµРј
+parser.py:44: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  elif not (text[i+1][0] == 'Рї' or text[i+1][0] == 'Рґ'):
+parser.py:37: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  elif (text[i][0] == u'С‚' or text[i][0] == u'Рў') and text[i+1][0] == u'.' and text[i+2][0] == 'Рє':
+Traceback (most recent call last):
+  File "parser.py", line 58, in <module>
+    for line in ruwac:
+  File "/usr/lib/python2.7/codecs.py", line 699, in next
+    return self.reader.next()
+  File "/usr/lib/python2.7/codecs.py", line 630, in next
+    line = self.readline()
+  File "/usr/lib/python2.7/codecs.py", line 545, in readline
+    data = self.read(readsize, firstline=True)
+  File "/usr/lib/python2.7/codecs.py", line 492, in read
+    newchars, decodedbytes = self.decode(data, self.errors)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xd1 in position 16: invalid continuation byte
