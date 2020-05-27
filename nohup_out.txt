@@ -1,5 +1,4 @@
-Тут все ошибки, которые мне выводились. Сначала я писала в ноутбуке, но он почему-то не запускался. Программа ругалась на нехватку скобочек. 
-Я решила запускать в простом питоне и тут начались проблемы с кодировкой.
+Текстовый файл с выводом.
 
 /home/aaksenova/Term_paper.ipynb: 292: /home/aaksenova/Term_paper.ipynb: Syntax error: end of file unexpected (expecting "}")
 /home/aaksenova/parser.py: 1: /home/aaksenova/parser.py: import: not found
