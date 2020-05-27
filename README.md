@@ -10,7 +10,7 @@ This code was created as a term paper. As you can see there are four directories
 
    This directory contains estimation of various models for word vector representation on test subcorpus.
    
-3. Similarities
+3. Similarity count
 
    This directory contains evaluation of two types of context similarity: maximum pairwise similarity between right context and left context, rigt and left mean context vectors similarity.
    
