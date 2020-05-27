@@ -1,19 +1,19 @@
 # Distributional Analysis of Function Words
 
-This code was created as a term paper. As you can see there are four directories.
+This code was created for a term paper. As you can see there are four directories.
 
 1. Theory
   
-   This directory contains theoretical papers related to the topic.
+   Contains theoretical papers related to the topic.
 
 2. Models
 
-   This directory contains estimation of various models for word vector representation on test subcorpus.
+   Contains estimation of various models for word vector representation on test subcorpus.
    
 3. Similarity count
 
-   This directory contains evaluation of two types of context similarity: maximum pairwise similarity between right context and left context, rigt and left mean context vectors similarity.
+   Contains evaluation of two types of context similarity: maximum pairwise similarity between right context and left context, rigt and left mean context vectors similarity.
    
 4. Main
 
-   This directory contains code for preprocessing of main train corpus for final CBOW model and discussion of various classification algorithms.
+   Contains code for preprocessing of main train corpus for final CBOW model and discussion of various classification algorithms.
