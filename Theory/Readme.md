@@ -1,3 +1,3 @@
-# Distributional analysis of functional words
+# Distributional Analysis of Function Words
 
 Related papers
