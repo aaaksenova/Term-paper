@@ -1,6 +1,6 @@
 # Distributional Analysis of Function Words
 
-This code was created for a term paper. As you can see there are four directories.
+This repository was created for a term paper. As you can see there are four directories.
 
 1. Theory
   
