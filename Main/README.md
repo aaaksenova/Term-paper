@@ -9,11 +9,11 @@ There are several work stages in this notebook:
 
 1. Similarity count
 
-Two functions that estimate cosine similarities of contexts for sentences with "то есть". Results are used in Similarity.ipynb.
+    Two functions that estimate cosine similarities of contexts for sentences with "то есть". Results are used in Similarity.ipynb.
 
 2. Classificator "from scratch"
 
-Our function wich predicts meaning of "то есть" in particular context based on context part similarity.
+    Our function wich predicts meaning of "то есть" in particular context based on context part similarity.
 
 3. Sklearn Classificators for multilabled classification
 
