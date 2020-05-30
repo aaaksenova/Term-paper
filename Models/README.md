@@ -6,4 +6,4 @@ We also decided to use pre-trained BERT to estimate its efficiency. The results 
 
 File 21_century.txt is an example of a parsed text.
 
-tojest.html is a visualisation of the 10 nearest neighbours of "то есть" in CBOW dictionary. It is an output file of Models.ipynb file. Vec2Graph package has been used for visualisation, thus it need to be installed before launching.
+tojest.html is a visualisation of the 10 nearest neighbours of "то есть" in CBOW dictionary. It is an output file of Models.ipynb file. Vec2Graph package has been used for visualisation, therefore it need to be installed before launching.
